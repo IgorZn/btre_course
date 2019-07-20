@@ -1,0 +1,50 @@
+Страницы
+
+- Домой
+- О нас
+- Список предложений
+- Предложение
+- Поиск
+- Регистрация
+- Вход
+- Доска наблюдения
+
+== Табличный вид ==
+--- Предложение (таблица)
+----- поля
+		- Название
+		- Адрес, город, область, индекс
+		- Цена
+		- Спальни
+		- Ванные
+		- Площадь м2
+		- Гараж
+		- Дата публикации
+		- Имя агента
+		- Фото объекта, главная и второстепенная.
+		_________________
+
+		id: 		INT
+		realtors: 	INT (FOREIGN KEY [realtors])
+		title:		STR
+		address:	STR
+		city:		STR
+		state:		STR
+		zipcode:	STR
+		descriptions:	TEXT
+		price:		INT
+		bedrooms:	INT
+		bathrooms:	INT
+		garage:		INT
+		sqmtr:		INT
+		is_published:	BOOL [true]
+		list_date:	DATE
+		photo_main:		STR
+		photo_1:	STR
+		photo_2:	STR
+		photo_3:	STR
+		photo_4:	STR
+		photo_5:	STR
+		photo_6:	STR
+		
+		

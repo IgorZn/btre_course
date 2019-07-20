@@ -7,3 +7,10 @@ urlpatterns = [
     path('<int:listing_id>', views.listing, name='listing'),
     path('search/', views.search, name='search'),
 ]
+
+
+"""
+ <int:listing_id> -- это -- http://127.0.0.1:8000/listings/5
+            ^                                              ^
+            |______________________________________________|
+"""
