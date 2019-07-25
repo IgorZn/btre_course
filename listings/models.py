@@ -25,14 +25,6 @@ class Listing(models.Model):
     photo_4 = models.ImageField(upload_to='photo/%Y/%m/%d/', blank=True)
     photo_5 = models.ImageField(upload_to='photo/%Y/%m/%d/', blank=True)
     photo_6 = models.ImageField(upload_to='photo/%Y/%m/%d/', blank=True)
-    photos = [
-        photo_1,
-        photo_2,
-        photo_3,
-        photo_4,
-        photo_5,
-        photo_6,
-    ]
     is_published = models.BooleanField(default=True)
     list_date = models.DateTimeField(default=datetime.now, blank=True)
 
