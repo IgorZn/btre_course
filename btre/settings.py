@@ -149,5 +149,5 @@ MESSAGE_TAGS = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'igor.znamensky@gmail.com'
-EMAIL_HOST_PASSWORD = 'nbhwxglcnzzizugx'
+EMAIL_HOST_PASSWORD = 'nbhwxglcnzzizugxx'
 EMAIL_USE_TLS = True
